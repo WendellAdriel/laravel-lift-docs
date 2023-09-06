@@ -52,7 +52,7 @@ final class Product extends Model
 }
 ```
 
-You can also pass a second parameter to the `Rules` attribute to set a custom error message for the validation rule. **The validation messages work with localization.**
+You can also pass a second parameter to the `Rules` attribute to set a custom error message for the validation rule.
 
 ```php
 use Illuminate\Database\Eloquent\Model;
@@ -69,6 +69,9 @@ final class Product extends Model
     public string $name;
 }
 ```
+
+The validation messages work with localization, so you can set your messages ina `lang` file and under the hood,
+**Lift** will use the `__()` helper to get the message.
 
 ### **CreateRules**
 
