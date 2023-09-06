@@ -22,6 +22,10 @@
 
 ## 🧪 Methods
 
+* [castAndCreate](methods/castandcreate.md)
+* [castAndFill](methods/castandfill.md)
+* [castAndSet](methods/castandset.md)
+* [castAndUpdate](methods/castandupdate.md)
 * [createValidationMessages](methods/createvalidationmessages.md)
 * [createValidationRules](methods/createvalidationrules.md)
 * [customColumns](methods/customcolumns.md)
