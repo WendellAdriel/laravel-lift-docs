@@ -5,6 +5,7 @@
 ## 🚀 Getting Started
 
 * [Installation](getting-started/installation.md)
+* [Changelog](getting-started/changelog.md)
 
 ## 🛠 Attributes
 
