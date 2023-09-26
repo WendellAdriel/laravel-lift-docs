@@ -6,9 +6,7 @@
 
 The `Listener` attribute allows you to register a listener function for model events.
 
-A more convenient way of registering a listener function "replacing" laravels event closures for eloquent models, more info (Laravel Docs: Eloquent Closures)[https://laravel.com/docs/10.x/eloquent#events-using-closures]
-
-### Usage
+A more convenient way of registering a listener function "replacing" laravels event closures for eloquent models, more info [Laravel Docs: Eloquent Closures](https://laravel.com/docs/10.x/eloquent#events-using-closures)
 
 ```php
 use Illuminate\Database\Eloquent\Model;
@@ -27,7 +25,7 @@ final class Product extends Model
 }
 ```
 
-### API
+#### API
 
 ```php
 #[Listener(event: 'created', queue: true)]
@@ -39,9 +37,7 @@ final class Product extends Model
 
 The `Observer` attribute allows you to register a observer class for model events.
 
-This is used to register a Observer Class with a model explained in more detail here: (Laravel Docs: Eloquent Observers)[https://laravel.com/docs/10.x/eloquent#observers]
-
-### Usage
+This is used to register a Observer Class with a model explained in more detail here: [Laravel Docs: Eloquent Observers](https://laravel.com/docs/10.x/eloquent#observers)
 
 ```php
 use Illuminate\Database\Eloquent\Model;
@@ -57,20 +53,18 @@ final class Product extends Model
 }
 ```
 
-### API
+#### API
 
 ```php
 #[Observer(string $observer)]
 ```
 
-With this attribute you can register a (`observer`)[https://laravel.com/docs/10.x/eloquent#observers] to your model, in theory you could register as many observer classes as you want.
+With this attribute you can register a [`observer`](https://laravel.com/docs/10.x/eloquent#observers) to your model, in theory you could register as many observer classes as you want.
 
 ## Dispatches
 
-The `Dispatches` attribute allows you to dispatch custom (Laravel Events)[https://laravel.com/docs/10.x/events#defining-events].
+The `Dispatches` attribute allows you to dispatch custom [Laravel Events](https://laravel.com/docs/10.x/events#defining-events).
 
-
-### Usage
 
 ```php
 use Illuminate\Database\Eloquent\Model;
@@ -87,10 +81,10 @@ final class Product extends Model
 }
 ```
 
-### API
+#### API
 
 ```php
 #[Dispatches(string $eventClass, string $event = '')]
 ```
 
-`event` needs to be one of Laravel's model event e.g: 'created', 'creating', 'updated', but is optional if your (`eventClass`)[https://laravel.com/docs/10.x/events#defining-events] contains the event string in its name like `ProductSaved`, `saved` will be interpreted as the event.
+`event` needs to be one of Laravel's model event e.g: 'created', 'creating', 'updated', but is optional if your [`eventClass`](https://laravel.com/docs/10.x/events#defining-events) contains the event string in its name like `ProductSaved`, `saved` will be interpreted as the event.
