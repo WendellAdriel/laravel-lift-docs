@@ -13,6 +13,7 @@
 * [Column](attributes/column.md)
 * [Config](attributes/config.md)
 * [DB](attributes/db.md)
+* [Events](attributes/events.md)
 * [Fillable](attributes/fillable.md)
 * [Hidden](attributes/hidden.md)
 * [Immutable](attributes/immutable.md)
