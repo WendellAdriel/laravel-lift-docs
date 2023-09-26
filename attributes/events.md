@@ -25,7 +25,7 @@ final class Product extends Model
 }
 ```
 
-#### API
+### API
 
 ```php
 #[Listener(event: 'created', queue: true)]
@@ -55,7 +55,7 @@ final class Product extends Model
 }
 ```
 
-#### API
+### API
 
 ```php
 #[Observer(string $observer)]
@@ -83,7 +83,7 @@ final class Product extends Model
 }
 ```
 
-#### API
+### API
 
 ```php
 #[Dispatches(string $eventClass, string $event = '')]
