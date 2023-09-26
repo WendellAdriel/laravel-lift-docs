@@ -33,6 +33,8 @@ final class Product extends Model
 
 `event` needs to be one of Laravel's model event e.g: 'created', 'creating', 'updated'. If you set `queue` to true your handler will be executed async by Laravel's queue system. 
 
+> ⚠️ **if your function name is equal to the event name prefixed with "on" like onSaving or onDelete you don't need to specify the event name with the `Listener` Attribute **
+
 ## Observer
 
 The `Observer` attribute allows you to register a observer class for model events.
@@ -88,3 +90,4 @@ final class Product extends Model
 ```
 
 `event` needs to be one of Laravel's model event e.g: 'created', 'creating', 'updated', but is optional if your [`eventClass`](https://laravel.com/docs/10.x/events#defining-events) contains the event string in its name like `ProductSaved`, `saved` will be interpreted as the event.
+
