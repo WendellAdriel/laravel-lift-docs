@@ -2,12 +2,18 @@
 
 Here's a quick overview of the new features in the latest versions of the package.
 
+## v0.12.0
+
+- Added the `Dispatches` attribute
+- Added the `Listener` attribute
+- Added the `Observer` attribute
+
 ## v0.11.0
 
-- Added `castAndCreate` method
-- Added `castAndFill` method
-- Added `castAndSet` method
-- Added `castAndUpdate` method
+- Added the `castAndCreate` method
+- Added the `castAndFill` method
+- Added the `castAndSet` method
+- Added the `castAndUpdate` method
 
 ## v0.10.1
 
