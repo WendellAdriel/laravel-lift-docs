@@ -16,6 +16,7 @@
 * [Events](attributes/events.md)
 * [Fillable](attributes/fillable.md)
 * [Hidden](attributes/hidden.md)
+* [Ignore Properties](attributes/ignore-properties.md)
 * [Immutable](attributes/immutable.md)
 * [Primary Key](attributes/primary-key.md)
 * [Relationships](attributes/relationships.md)

@@ -2,6 +2,10 @@
 
 Here's a quick overview of the new features in the latest versions of the package.
 
+## v0.13.0
+
+- Added the `IgnoreProperties` attribute
+
 ## v0.12.0
 
 - Added the `Dispatches` attribute
