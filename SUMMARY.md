@@ -1,13 +1,13 @@
 # Table of contents
 
-* [🏋 Lift for Laravel](README.md)
+* [🏋️ Lift for Laravel](README.md)
 
 ## 🚀 Getting Started
 
 * [Installation](getting-started/installation.md)
 * [Changelog](getting-started/changelog.md)
 
-## 🛠 Attributes
+## 🛠️ Attributes
 
 * [Cast](attributes/cast.md)
 * [Column](attributes/column.md)
