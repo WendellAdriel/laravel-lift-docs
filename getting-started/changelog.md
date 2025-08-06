@@ -2,6 +2,10 @@
 
 Here's a quick overview of the new features in the latest versions of the package.
 
+## v0.19.0
+
+* Laravel 12 support.
+
 ## v0.15.0
 
 * Added support to `Enum` conversion on column casting.
