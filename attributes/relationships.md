@@ -227,3 +227,21 @@ final class Post extends Model
     // ...
 }
 ```
+
+For the `BelongsToMany` relationship you can also customize the pivot with the `pivotModel` and `pivotColumns` parameters:
+
+```php
+use WendellAdriel\Lift\Attributes\Relations\BelongsToMany;
+
+#[BelongsToMany(User::class, pivotModel: OrganizationUser::class, pivotColumns: ['is_owner'])]
+class Organization extends Model
+{
+    use Lift;
+
+    #[PrimaryKey]
+    public int $id;
+
+    #[Fillable]
+    public string $name;
+}
+```
