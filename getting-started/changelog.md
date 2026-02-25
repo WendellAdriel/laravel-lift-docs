@@ -2,6 +2,10 @@
 
 Here's a quick overview of the new features in the latest versions of the package.
 
+## v0.18.0
+
+* Laravel 13 support.
+
 ## v0.17.0
 
 * Added `pivotModel` and `pivotColumns` parameters to the `BelongsToMany` relationship attribute.
